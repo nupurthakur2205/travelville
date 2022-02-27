@@ -10,6 +10,7 @@ pipeline{
        stage("test"){
         steps{
           echo 'test the application'
+          echo 'test again'
         }
       }
        stage("deploy"){
